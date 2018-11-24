@@ -1,0 +1,52 @@
+{
+  "name": "jtlib",
+  "version": "0.0.2",
+  "description": "Run react project by integrate webpack.",
+  "main": "built/index.js",
+  "types": "src/index.ts",
+  "bin": {
+    "jtlib": "built/index.js"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meitianyitan/jtlib.git"
+  },
+  "author": "Weich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meitianyitan/jtlib/issues"
+  },
+  "homepage": "https://github.com/meitianyitan/jtlib#readme",
+  "dependencies": {
+    "ava": "^0.18.2",
+    "babel-loader": "^7.1.2",
+    "case-sensitive-paths-webpack-plugin": "^2.0.0",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "concurrently": "^3.4.0",
+    "format-json": "^1.0.3",
+    "lodash": "^4.17.4",
+    "opn": "^4.0.2",
+    "ora": "^1.3.0",
+    "portfinder": "^1.0.13",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.1.1",
+    "@types/lodash": "^4.14.74",
+    "@types/node": "^7.0.43",
+    "@types/opn": "^3.0.28",
+    "@types/ora": "^1.3.1",
+    "@types/webpack": "^3.0.10",
+    "@types/yargs": "^8.0.2"
+  }
+}
